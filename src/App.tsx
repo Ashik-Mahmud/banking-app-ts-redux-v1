@@ -1,10 +1,13 @@
+import BankContainer from "./Components/BankContainer";
+import { AppContainer } from "./Styles/Styles";
+
 function App() {
   return (
-    <div className="App">
+    <AppContainer className="App">
       <header className="App-header">
-        <h1>Hello World</h1>
+        <BankContainer />
       </header>
-    </div>
+    </AppContainer>
   );
 }
 
